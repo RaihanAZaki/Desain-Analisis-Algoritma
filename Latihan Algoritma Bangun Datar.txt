@@ -1,0 +1,71 @@
+Rumus luas segitiga = 1/2 * alas * tinggi
+
+Algoritma Luas Segitiga:
+1. Variabel yang digunakan yaitu alas,tinggi, luas
+2. Inputan berisi nilai alas jajargenjang dengan nilai 25
+3. Input berisi nilai tinggi jajargenjang dengan nilai 30
+4. Maka dilakukan proses penghitungan luas segitiga: 0.5 * alas * tinggi
+
+Pseudecode
+Diketahui
+a = alas, t = tinggi, l = luas
+a = 25
+t = 30
+l = 0*5 * a * t
+----------------------------------------------------------------------
+
+Rumus luas hitung jajargenjang = alas * tinggi
+
+Algoritma Luas Jajargenjang:
+1. Variabel yang digunakan yaitu alas,tinggi, luas
+2. Inputan berisi nilai alas jajargenjang dengan nilai 5
+3. Input berisi nilai tinggi jajargenjang dengan nilai 3
+4. Maka dilakukan proses penghitungan luas jajargenjang: alas*tinggi
+
+Pseudecode
+Diketahui
+a = alas, t = tinggi, l = luas
+a = 5
+t = 3
+l = a * t
+Hasil = 15
+----------------------------------------------------------------------
+
+Rumus volume tabung = pi * r * r * t
+
+Algoritma Volume Tabung:
+1. Variabel yang digunakan yaitu pi, r, t, v
+2. Terdapat 2 pilihan pada pi yaitu = 3,14 atau 22/7
+3. Input variabel r dengan nilai = 3
+4. Input variabel t dengan nilai = 5
+5. Maka dilakukan proses perhitungan volume tabung = pi * r * r * t
+
+Pseudocode:
+Diketahui 
+pi = 3.14
+r = 3
+t = 5
+v = pi * r * r * t
+
+Cetak (" v ")
+----------------------------------------------------------------------
+
+Rumus volume kerucut = 1/3 * pi * r * r * t
+
+Algoritma Volume Kerucut:
+1. Variabel yang digunakan yaitu pi, d, r, t, dan v.
+2. Terdapat 2 pilihan pada pi yaitu = 3,14 atau 22/7
+3. Input variabel d dengan nilai = 5
+4. Nilai r didapatkan bedasarkan nilai setengah d = 2,5
+5. Input variabel t dengan nilai = 4
+6. Maka dilakukan proses perhitungan volume kerucut = 1/3 * pi * r * r * t
+
+Pseudocode:
+pi = 3,14
+d = 5
+r = 1/2 * d
+t = 4
+v = 1/3 * pi * r * r * t
+
+Cetak (" v ")
+
