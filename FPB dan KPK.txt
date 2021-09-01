@@ -1,0 +1,54 @@
+Algoritma FPB
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kemabli ke step 2.
+Step 2 Bagi nilai m dengan n, masukkan nilai sisanya ke r.
+Step 3 Masukkan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode:
+While n ≠ 0 do
+r  ←  m mod n
+m  ←  n
+n  ←  r
+return m
+
+Algoritma KPK menggunakan bantuan FPB
+1. FPB
+2. Mulai melakukan proses perhitungan KPK
+3. Input variabel n dengan nilai = 3
+4. Input variabel m dengan nilai = 4
+5. Lakukan proses a*b / FPB;
+
+Pseudocode:
+n = 3
+m = 4
+
+KPK = n * m
+FPB = m mod n
+m <-- n
+n <-- FPB
+KPK = KPK / FPB
+
+Contoh Codingan
+#include <stdio.h>
+
+int FPB(int a, int b){
+int r = 0;
+    while(b!=0){
+        r = a % b;
+        a = b;
+        b = r;
+    }
+
+    return a;
+}
+
+
+int KPK(int a, int b){
+    return a*b / FPB(a, b);
+}
+
+int main(){
+int a=120;
+int b=90;
+    printf("%d", KPK(KPK(120, 88),36));
+    return 0;
+}
