@@ -1,0 +1,20 @@
+Fungsi untuk menukar dua variabel x dan y:
+define swap (x,y)
+buffer = x
+x = y
+y = buffer
+
+Latihan
+Algoritma Pertukaran Buah:
+1. Variabel yang akan dipakai yaitu, m = manggis, p = pisang, b = buffer
+2. terdapat piring kosong
+3. Manggis akan disimpan terlebih dahulu ke piring kosong
+4. Kemudian pisang akan dipindahkan ke piring 1, sebab manggis sudah dipindahkan ke piring kosong
+5. Setelah itu piring (2) yang digunakan pisang sebelumnya akan kosong, sehingga piring 2 akan diisi oleh manggis
+
+
+Pseudocode:
+define swap (m = manggis, p = pisang, b = piring ke 3)
+b = m
+m = p
+p = b
