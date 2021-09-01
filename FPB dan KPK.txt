@@ -21,11 +21,11 @@ Pseudocode:
 n = 3
 m = 4
 
-KPK = n * m
-FPB = m mod n
-m <-- n
-n <-- FPB
-KPK = KPK / FPB
+While n != m || n > m do
+r  = m mod n
+m  = n
+n  = r
+z = (n * m / r)
 
 Contoh Codingan
 #include <stdio.h>
