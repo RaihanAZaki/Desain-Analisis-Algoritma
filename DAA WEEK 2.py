@@ -9,33 +9,24 @@ import numpy as np
 
 # In[26]:
 
-
-print(np.__version__)
 #Cek Versi Python
+print(np.__version__)
+Output = 1.20.1
 
 
-# In[3]:
-
-
-print("Hello World")
 #Print HelloWorld
+print("Hello World")
+Output = Hello World
 
 
-# In[27]:
-
-
-print("Nama saya (Raihan)")
 #Print Nama
+print("Nama saya (Raihan)")
+Output = Nama saya (Raihan)
 
 
-# In[5]:
-
-
-print("NIM saya (2020071037)")
 #Print NIM
-
-
-# In[6]:
+print("NIM saya (2020071037)")
+Output = NIM saya (2020071037)
 
 
 if 5>2:
