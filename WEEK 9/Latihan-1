@@ -1,0 +1,23 @@
+# Latihan 1
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+
+myWeb1 = nx.DiGraph()
+myPages1 = range(1,6)
+
+# Connections berguna untuk menghubungkan garis dengan array yang telah diisi
+connections1 = [(1,2),(2,3),(3,4),(4,5),(5,6)]
+myWeb1.add_nodes_from(myPages1)
+myWeb1.add_edges_from(connections1)
+
+#plotting
+pos = nx.spectral_layout(myWeb1)
+nx.draw(myWeb1, pos, arrows=True, with_labels=True)
+plt.show()
+
+# Membuat hasil Page Ranknya
+G, p = createPageRank(myWeb1)
+print(G)
